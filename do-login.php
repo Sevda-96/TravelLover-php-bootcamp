@@ -19,8 +19,7 @@ if(isset($_REQUEST['login'])){
     ]);
 
     $row=$select->fetch(PDO::FETCH_ASSOC);
-   // $pass=$row['admin_password'];
-    //var_dump($row['admin_username']);
+   
     
 
     if($username==$row['admin_username']){
