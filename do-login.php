@@ -19,9 +19,7 @@ if(isset($_REQUEST['login'])){
     ]);
 
     $row=$select->fetch(PDO::FETCH_ASSOC);
-   
-    
-
+ 
     if($username==$row['admin_username']){
        if($password==$row['admin_password']){
           $_SESSION['login']=true;
