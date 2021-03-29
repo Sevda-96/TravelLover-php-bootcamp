@@ -1,0 +1,46 @@
+[
+{"type":"header","version":"5.0.3","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"travel"},
+{"type":"table","name":"admin","database":"travel","data":
+[
+{"admin_id":"a6fc1f3b8302","admin_fullname":"Sevda Engin","admin_username":"admin","admin_password":"password"}
+]
+}
+,{"type":"table","name":"gallery","database":"travel","data":
+[
+{"gallery_id":"26a5f8a07d8b","title":"İstanbul","text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book","image":"g3.jpg"},
+{"gallery_id":"2be7f0cf2152","title":"Mardin","text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.","image":"g6.jpg"},
+{"gallery_id":"65057162bdae","title":"Karadeniz ","text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.","image":"s1.jpg"},
+{"gallery_id":"b2e7dc5b4954","title":"Antalya","text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book","image":"g6.jpg"},
+{"gallery_id":"c6bc04761992","title":"Kapadokya","text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book","image":"g1.jpg"},
+{"gallery_id":"d9f7a2de4938","title":"Şanlıurfa","text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book","image":"g5.jpg"}
+]
+}
+,{"type":"table","name":"guides","database":"travel","data":
+[
+{"guides_id":"1415432e4c89","guides_namesurname":"Sevda Engin ","guides_position":"rehber","image":"t2.jpg"},
+{"guides_id":"1fd8c38655f3","guides_namesurname":"Evin Engin","guides_position":"Müdür","image":"t3.jpg"},
+{"guides_id":"8eb37a928e76","guides_namesurname":"Mustafa Demir","guides_position":"Tur Rehberi","image":"t4.jpg"},
+{"guides_id":"f8376c2c4ea7","guides_namesurname":"Deniz Koç","guides_position":"Tur Rehberi","image":"t1.jpg"}
+]
+}
+,{"type":"table","name":"reservation","database":"travel","data":
+[
+{"reservation_id":"243b6bb3ce1c","tour_name":"Mardin","person_nameSurname":"Sevda Engin ","e_mail":"svdngn@outlook.com","phone":"2147483647","message":"cvbcnbcn","is_deleted":"1"},
+{"reservation_id":"8e5221dc1095","tour_name":"Londan","person_nameSurname":"Sevda Engin ","e_mail":"bluesevda.47@gmail.com","phone":"+905456315064","message":"zxczxcscsa","is_deleted":"0"},
+{"reservation_id":"aae80777081e","tour_name":"Amed","person_nameSurname":"test","e_mail":"bluesevda.47@gmail.com","phone":"2147483647","message":"asdfghjklş","is_deleted":"1"},
+{"reservation_id":"c1ecabdcc15c","tour_name":"Şanlıurfa","person_nameSurname":"ww","e_mail":"svdngn@outlook.com","phone":"2147483647","message":"safsdgdfhfg","is_deleted":"1"}
+]
+}
+,{"type":"table","name":"tours","database":"travel","data":
+[
+{"tours_id":"2c0e2fa79ea5","tours_city":"mardin","tours_price":"50","date":"2021-03-22","image":"1610476449630.jpg","is_deleted":"1"},
+{"tours_id":"4eac329a68fb","tours_city":"Mardin","tours_price":"50","date":"2021-03-27","image":"p3.jpg","is_deleted":"0"},
+{"tours_id":"5ba057cccaed","tours_city":"İstanbul","tours_price":"300","date":"2021-03-24","image":"g4.jpg","is_deleted":"1"},
+{"tours_id":"7ba4f5c60759","tours_city":"İstanbul","tours_price":"300","date":"2021-03-27","image":"p1.jpg","is_deleted":"0"},
+{"tours_id":"902d5ef61545","tours_city":"Şanlıurfa","tours_price":"100","date":"2021-03-23","image":"raw_gobekli-tepe-medeniyetin-yapi-taslari_699929212.jpg","is_deleted":"1"},
+{"tours_id":"9944b22f8ef2","tours_city":"Şanlıurfa","tours_price":"100","date":"2021-03-27","image":"p2.jpg","is_deleted":"0"},
+{"tours_id":"fd93e9592a01","tours_city":"Kapadokya","tours_price":"200","date":"2021-03-27","image":"p2.jpg","is_deleted":"0"}
+]
+}
+]
